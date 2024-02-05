@@ -13,16 +13,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>LangChain + Next.js Template</title>
+        <title>Code Review Assistant</title>
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <meta
           name="description"
-          content="Starter template showing how to use LangChain in Next.js projects. See source code and deploy your own at https://github.com/langchain-ai/langchain-nextjs-template!"
+          content="A assistant that aims to automate reviews, providing detailed comments, suggesting improvements and contextual code snippets."
         />
-        <meta property="og:title" content="LangChain + Next.js Template" />
+        <meta property="og:title" content="Code Review Assistant" />
         <meta
           property="og:description"
-          content="Starter template showing how to use LangChain in Next.js projects. See source code and deploy your own at https://github.com/langchain-ai/langchain-nextjs-template!"
+          content="A assistant that aims to automate reviews, providing detailed comments, suggesting improvements and contextual code snippets."
         />
         <meta property="og:image" content="/images/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -35,7 +35,7 @@ export default function RootLayout({
       </head>
       <body className={publicSans.className}>
         <div className="flex flex-col p-4 md:p-12 h-[100vh]">
-          <Navbar></Navbar>
+          <Navbar/>
           {children}
         </div>
       </body>

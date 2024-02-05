@@ -1,8 +1,5 @@
 # 🦜️🔗 Robitus, the coding assistant
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/langchain-ai/langchain-nextjs-template)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain-nextjs-template)
-
 This app uses a template with LangChain.js + Next.js. It showcases how to use and combine LangChain modules for several
 use cases. <br>
 If you want to know more about the template, check it out [here](https://github.com/langchain-ai/langchain-nextjs-template)
